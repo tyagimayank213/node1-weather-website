@@ -1,0 +1,115 @@
+*{
+    font-family: 'Bree Serif';
+}
+body{
+    background-image: url('../img/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.heading h1{
+    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.container{
+    background-color: black;
+    height: 380px;
+    width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 0px;
+    border-radius: 0 0 10px 10px;
+}
+.cc{
+    order: 3;
+}
+.first{
+    background-color: white;
+    width: auto;
+    height:280px;
+}
+.second{
+    background-color: yellow;
+    display: flex;
+    width: 600px;
+    border-radius: 0 0 10px 10px;
+    height: 100px;
+
+}
+.ffirst{
+    background-color: white;
+    margin-top: 0;
+    height:220px;
+}
+img{
+    width: 206px;
+    padding-left: 187px;
+}
+.sfirst
+{
+    background-color: black;
+    height: 100px;
+    width: 135px;
+    border-radius: 0 0 0 10px;
+}
+.sfirstt
+{
+    background-color: black;
+    height: 100px;
+    width: 285px;
+}
+.ssecond{
+    background-image: url('../img/img2.jpg');
+    height: 100px;
+    width: 180px;
+    border-radius: 0 0 10px 0;
+}
+.ss{
+    order: 3;
+}
+#input{
+    margin:10px 20px 10px 130px;
+    width: 250px;
+    height: 30px;
+    outline: none;
+}
+#ssecond h1{
+    margin: 0;
+    color: white;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 45px;
+    font-weight: bolder;
+}
+#sfirstt h3{
+    padding:15px 10px 0px 20px ;
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+#sfirstt h5{
+    padding:0px 10px 5px 17px ;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+#sfirst h2{
+    padding: 22px 18px 18px 37px;
+    font-size: 40px;
+    margin: 0;
+    color: white;
+}
+#button{
+    margin: 0;
+    height: 33px;
+    width: 70px;
+    background-color: rgb(220, 222, 223);
+    outline: none;
+    border-radius: 5px
+}
