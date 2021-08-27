@@ -1,7 +1,3 @@
-console.log("heelo script")
-
-
-
 const form = document.querySelector('form')
 const input = document.getElementById('input')
 const headingtwo = document.getElementById('headingtwo')
@@ -20,8 +16,8 @@ form.addEventListener('submit', (e) => {
                 console.log(data.error)
             }
             else {
-                console.log("hello",data.temperature);
-                headingtwo.textContent = data.temperature+'°';
+                console.log("hello", data.temperature);
+                headingtwo.textContent = data.temperature + '°';
                 headingthree.textContent = data.description;
                 headingfive.textContent = data.location;
             }
