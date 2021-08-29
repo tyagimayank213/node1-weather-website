@@ -10,7 +10,7 @@ form.addEventListener('submit', (e) => {
     headingthree.textContent = 'Loading...'
     headingfive.textContent = ''
     headingtwo.textContent = ''
-    fetch('http://localhost:3000/about?address=' + input.value).then((response) => {
+    fetch('/about?address=' + input.value).then((response) => {
         response.json().then((data) => {
             if (data.error) {
                 console.log(data.error)
